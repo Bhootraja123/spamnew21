@@ -28,8 +28,7 @@ async def alive(event):
   if event.sender_id in SUDO_USERS:
      await SAM.send_file(event.chat_id,
                                   SAM_PIC,
-                                  caption=deadly                                  
-        )
+                                  caption=deadly)
     
 def get_readable_time(seconds: int) -> str:
     count = 0
